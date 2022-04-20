@@ -7,7 +7,7 @@
  * @b: An input integer pointer
  * Return: Nothing
 */
-void swap_int(int *a, int *B)
+void swap_int(int *a, int *b)
 {
 	int swa;
 	swa = *a;
