@@ -5,7 +5,7 @@
  *  * _atoi - a function that converts string to integer
  *   * @s: An input string
  *    * Return: integer from conversion
- *     */
+*/
 int _atoi(char *s)
 {
 	int sign = 1;
