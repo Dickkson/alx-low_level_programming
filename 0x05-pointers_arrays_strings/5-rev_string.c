@@ -5,7 +5,7 @@
  *   * @s: an input string
  *    * Return: Nothing
 */
-void rev_string(char *S)
+void rev_string(char *s)
 {
 	int a = 0, b = 0;
 	char rev;
@@ -15,8 +15,8 @@ void rev_string(char *S)
 
 	while (b < a--)
 	{
-		rev = s[b]
-			s[b++] = s[a];
-		s[a] = rev
+		rev = s[b];
+		s[b++] = s[a];
+		s[a] = rev;
 	}
 }
